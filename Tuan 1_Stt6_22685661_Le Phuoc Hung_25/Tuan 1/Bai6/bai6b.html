@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai06b</title>
+</head>
+<style>
+    .contact-form {
+        width: 50%;
+        height: auto;
+        padding: 14px;
+        box-shadow: 0 0 12px #111110;
+    }
+</style>
+<body>
+    <div class="contact-form">
+        <h1>Contact Us</h1>
+        <fieldset style="width: 33%;">
+            <legend>You message</legend>
+            <table>
+                <tr>
+                    <td><label for="emailTo">To</label></td>
+                    <td><input type="text" id="emailTo" size="20" value="Example"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Your email</label></td>
+                    <td><input type="text" id="email" size="20" value="Example" maxlength="200"></td>
+                </tr>
+                <tr>
+                    <td><label for="message">Message</label></td>
+                    <td>
+                        <textarea name="" id="message" cols="50" rows="10"></textarea>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset style="width: 70%;">
+            <legend>How you found us</legend>
+            <table>
+                <tr>
+                    <td>How did you hear of us</td>
+                    <td>
+                        <select name="" id="">
+                            <option value="">Google</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Newsletter</td>
+                    <td>
+                        <input type="checkbox"> Ensure this box is checked if you would like to receive email updates
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <br>
+        <input type="submit" value="Send Message">
+    </div>
+</body>
+</html>
