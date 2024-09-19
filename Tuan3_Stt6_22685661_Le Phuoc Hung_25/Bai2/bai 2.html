@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px auto;
+        }
+        .wrapper {
+            width: 960px;
+            background-color: antiquewhite;
+        }
+        header{
+            background-color: #294e79;
+            position: relative;
+
+        }
+        header h1{
+            top: 10px;
+            left: 200px;
+            position: absolute;
+            color: white;
+        }
+        header h5{
+            position: absolute;
+            top: 50px;
+            left: 200px;
+            color: white;
+        }
+        header #frm1{
+            position: absolute;
+            top: 10px;
+            right: 20px;
+
+        }
+        nav{
+            position: absolute;
+            bottom: 3px;
+            right: 20px;
+        }
+        .menu li{
+            background-color: rgba(37, 219, 243, 0.959);
+            display: inline-table;
+            line-height: 50px;
+            padding-left:  10px;
+            padding-right: 10px;
+        }
+        .menu li a{
+            color: white;
+            font-weight: bolder;
+            text-decoration: none;
+                    }
+        .menu li:hover{
+            background-color: red;
+        }
+        .menu li:hover>a{
+            font-style: italic;
+        }
+        .content{
+            height: 450px;
+            width: 960px;
+            background-color: hsl(175, 76%, 81%);
+        }
+        footer{
+            background-color: #294e79;
+            height: 80px;
+            width: 100%;
+            position: relative;
+
+        }
+        footer p{
+            position: absolute;
+            left: 200px;
+            top: 30px;
+            color: white;
+
+
+        }
+        section{
+            width: 65%;
+            height: 100%;
+            float: left;
+            background-color: thistle;
+        }
+        aside{
+            width: 35%;
+            height: 100%;
+            float: left;
+            background-color: wheat;
+        }
+    </style>
+</head>
+<body>
+        <div class="wrapper">
+            <header>
+                <img src="/flower.png" alt=""scrset="">
+                <h1>FlowerBox 360</h1>
+                <h5>...to get your daily close of luxury rosses!</h5>
+                <form action="" method="post" id="frm1">
+                    <input type="text" name="" id="" placeholder="Nhap vao day">
+                    <button type="submit" style="border-radius: 50%;">Go</button>
+                </form> 
+                <nav>
+                    <ul class="menu">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Promotion</a></li>
+                        <li><a href="">Gift Baskets</a></li>
+                        <li><a href="">Flowers Services </a></li>
+                        <li><a href=""> About</a></li>
+                    </ul>
+                </nav>             
+            </header>        
+        <div class="content">
+            <section>
+                <h2>Why Not Contact Us Today!</h2>
+                <p>For FlowerBox 360 shoppers, that means not only can you send your friends and loved ones the highest quality flowers found online, but that you can do so at a great value.</p>
+            </section>
+            <aside>
+                <h3>Discounts & ...</h3>
+                <hr>
+            </aside>
+        </div>
+        <footer>
+            <p>Coppyright @ Truong IUH</p>
+        </footer>
+    </div>
+</body>
+</html>
